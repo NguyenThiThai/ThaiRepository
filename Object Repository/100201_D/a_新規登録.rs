@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_新規登録</name>
+   <tag></tag>
+   <elementGuidId>42d2fb43-2b03-460c-9341-92075c5fe81a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.waves-effect.waves-light.btn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='frmsch']/div/div[3]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '100101_D.aspx' and (text() = '
+					新規登録はこちら
+				' or . = '
+					新規登録はこちら
+				')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>386f5bef-a772-4837-9e49-5dbe7202e94f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>waves-effect waves-light btn</value>
+      <webElementGuid>9baece96-82c1-40a7-b394-b7c4d2af327e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>100101_D.aspx</value>
+      <webElementGuid>fd10d38e-2c12-488f-a25c-96cfc29c1eca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+					新規登録はこちら
+				</value>
+      <webElementGuid>25aa92c4-3992-4e92-9b74-3754e9e492fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;frmsch&quot;)/div[@class=&quot;form__inner form--narrow&quot;]/div[@class=&quot;new-member btn__wrap&quot;]/a[@class=&quot;waves-effect waves-light btn&quot;]</value>
+      <webElementGuid>e343f17b-0ce6-4699-a1ee-00a13ab8c7f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='frmsch']/div/div[3]/a</value>
+      <webElementGuid>d8453189-26ab-4e92-a100-7798ae4ac074</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='商品一覧に戻る'])[1]/following::a[1]</value>
+      <webElementGuid>83c2c187-91f7-4ca2-a1c6-017132efc829</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ログイン'])[3]/following::a[1]</value>
+      <webElementGuid>3735f498-5e2b-4468-aea6-d9421d8fe68f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ログインIDが分からないとき'])[1]/preceding::a[1]</value>
+      <webElementGuid>9188a636-e8f6-44d2-bbfa-3b86c08edb8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '100101_D.aspx')])[2]</value>
+      <webElementGuid>bdb011e1-4d85-4f4c-9b70-0b0e089cf0e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div[3]/a</value>
+      <webElementGuid>3570a94c-8483-4502-8077-6d83e0d1c604</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '100101_D.aspx' and (text() = '
+					新規登録はこちら
+				' or . = '
+					新規登録はこちら
+				')]</value>
+      <webElementGuid>9fa1521a-1141-4d54-b319-fe81a9642e93</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

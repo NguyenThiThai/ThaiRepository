@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_ パスワード忘れ</name>
+   <tag></tag>
+   <elementGuidId>bb88b839-2787-48d9-8cb3-fa0ba5f8e8e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='wrapper']/div[2]/main/div/div/div[3]/div/ul/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = './100221_D.aspx' and (text() = 'パスワードが分からないとき' or . = 'パスワードが分からないとき')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>13633a4f-0808-49fb-946e-823d23fa1f81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>help-links__link link link--underline</value>
+      <webElementGuid>3b100924-f8e0-45b7-882b-411691c83953</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>./100221_D.aspx</value>
+      <webElementGuid>1647a9b6-5d2f-4fa2-800a-d8ca01500f27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>パスワードが分からないとき</value>
+      <webElementGuid>602bf16d-0945-412a-8d4e-d957d0f4134a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wrapper&quot;)/div[@class=&quot;site-inner&quot;]/main[@class=&quot;content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;help-links help-links--login&quot;]/div[@class=&quot;help-links&quot;]/ul[@class=&quot;help-links__list&quot;]/li[@class=&quot;help-links__item&quot;]/a[@class=&quot;help-links__link link link--underline&quot;]</value>
+      <webElementGuid>9acfb104-b76f-4d33-a03c-6cbfa91bdbc2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='wrapper']/div[2]/main/div/div/div[3]/div/ul/li[2]/a</value>
+      <webElementGuid>e185099b-7386-4b1b-b2f4-11129b3b301d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'パスワードが分からないとき')]</value>
+      <webElementGuid>0f17912e-0eb9-4162-b15e-efda82bfa424</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ログインIDが分からないとき'])[1]/following::a[1]</value>
+      <webElementGuid>9b679bf0-d42e-4a0d-8726-c404dd3d16c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='新規登録はこちら'])[1]/following::a[2]</value>
+      <webElementGuid>44473475-1092-4991-b67f-c0e8e365ed3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ヨシケイHPに戻る'])[1]/preceding::a[1]</value>
+      <webElementGuid>ad300883-3d80-41c7-94d4-5e031783a2d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='パスワードが分からないとき']/parent::*</value>
+      <webElementGuid>5fdefafe-a8f3-4390-8f9f-2d602efc7176</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, './100221_D.aspx')]</value>
+      <webElementGuid>af8c4bc5-8834-4980-af63-0c58a883a13c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/ul/li[2]/a</value>
+      <webElementGuid>878711d8-cd29-4e67-999a-c839964689ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = './100221_D.aspx' and (text() = 'パスワードが分からないとき' or . = 'パスワードが分からないとき')]</value>
+      <webElementGuid>21dd269d-b7ab-49fe-9d20-86a387c7337e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

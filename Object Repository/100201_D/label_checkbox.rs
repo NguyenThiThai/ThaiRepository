@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_checkbox</name>
+   <tag></tag>
+   <elementGuidId>c6e465ff-b1b1-4bd2-97c3-cd787e8d5b07</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.remember-id__label.waves-effect.waves-light</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='frmsch']/div/div/div[3]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>c5e1cc1e-6f9a-414c-a299-f000325e38a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>remember-id__label waves-effect waves-light</value>
+      <webElementGuid>ed2cb68c-fc44-48d4-b556-c0f65a414b5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+						ログインIDを記憶する
+					</value>
+      <webElementGuid>1411b769-1c57-4ea5-9ef0-58cb419b4826</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;frmsch&quot;)/div[@class=&quot;form__inner form--narrow&quot;]/div[@class=&quot;form__input-wrap&quot;]/div[@class=&quot;remember-id&quot;]/label[@class=&quot;remember-id__label waves-effect waves-light&quot;]</value>
+      <webElementGuid>601f8772-dbb9-429c-86c5-72280d912d7d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='frmsch']/div/div/div[3]/label</value>
+      <webElementGuid>8802f909-6cab-4ddb-ba66-fc244f71bbdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='パスワード'])[1]/following::label[1]</value>
+      <webElementGuid>73f9e2f5-b0db-4b6a-8d71-f74ec76809ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ログインID　または　登録メールアドレス'])[1]/following::label[2]</value>
+      <webElementGuid>dce1ce25-5677-4d7c-ba70-514623c5c9b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ログイン'])[3]/preceding::label[1]</value>
+      <webElementGuid>67ed4318-d1ff-4795-a6d9-e87c647c818a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/label</value>
+      <webElementGuid>3760ced9-9447-42e8-bd41-6bc727d1b5e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = '
+						ログインIDを記憶する
+					' or . = '
+						ログインIDを記憶する
+					')]</value>
+      <webElementGuid>73f6ac7a-fee7-43fa-9cea-d7ccb0bf3819</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

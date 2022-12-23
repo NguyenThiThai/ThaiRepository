@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_PassMsg</name>
+   <tag></tag>
+   <elementGuidId>12a5c666-aae0-49ae-a661-1b5bd5122a45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.form__error.pwdPassword_msg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='frmsch']/div/div/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>40a6ce14-2a99-4da1-a052-4c7bb08ef460</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form__error pwdPassword_msg</value>
+      <webElementGuid>a7884b7c-13ac-4b90-abb6-5a4c24f89458</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>パスワードを入力してください。</value>
+      <webElementGuid>87b5de5b-68eb-46d6-a7ae-b833637c2cf3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;frmsch&quot;)/div[@class=&quot;form__inner form--narrow&quot;]/div[@class=&quot;form__input-wrap&quot;]/div[@class=&quot;input-field&quot;]/p[@class=&quot;form__error pwdPassword_msg&quot;]</value>
+      <webElementGuid>37cc0865-abaf-4d66-8648-2345b742fbec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='frmsch']/div/div/div[2]/p</value>
+      <webElementGuid>07a566f0-c157-4f3c-9a50-1bdf62bce4f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='パスワード'])[1]/following::p[1]</value>
+      <webElementGuid>5ef13051-1152-4ef8-916e-9628155f1bac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ログインID　または　登録メールアドレス'])[1]/following::p[2]</value>
+      <webElementGuid>bfe65c94-59cb-45e2-825c-566d924ec615</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ログインIDを記憶する'])[1]/preceding::p[1]</value>
+      <webElementGuid>81bd275f-1951-4443-8949-0dcb1c4bd52f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ログイン'])[3]/preceding::p[1]</value>
+      <webElementGuid>0b814ef2-3219-4158-b2ed-25b37b7ef385</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='パスワードを入力してください。']/parent::*</value>
+      <webElementGuid>64c5a5a5-fb4d-47ad-b14c-d8b88d0ca426</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div[2]/p</value>
+      <webElementGuid>d516ad4d-5dd1-4fef-85d4-b651483ca67f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'パスワードを入力してください。' or . = 'パスワードを入力してください。')]</value>
+      <webElementGuid>77e34c01-5d32-45d3-bc34-3a3196048e9b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

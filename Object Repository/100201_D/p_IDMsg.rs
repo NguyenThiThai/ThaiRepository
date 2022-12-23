@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_IDMsg</name>
+   <tag></tag>
+   <elementGuidId>1c137cae-0eaa-4348-84fb-4a91aee698ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.form__error.txtWeb_Login_Id_msg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='frmsch']/div/div/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>0a9da8e6-8e9d-4086-a146-5581f760fafa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form__error txtWeb_Login_Id_msg</value>
+      <webElementGuid>cd30c72d-721e-423f-b3ca-7cb5bda692ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ログインIDまたはメールアドレスを正しく入力してください。</value>
+      <webElementGuid>b624b0dd-467e-4c07-9848-255a19df88fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;frmsch&quot;)/div[@class=&quot;form__inner form--narrow&quot;]/div[@class=&quot;form__input-wrap&quot;]/div[@class=&quot;input-field&quot;]/p[@class=&quot;form__error txtWeb_Login_Id_msg&quot;]</value>
+      <webElementGuid>4007f010-47f3-481f-aad4-ad1092b55795</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='frmsch']/div/div/div/p</value>
+      <webElementGuid>8208653d-8db9-4eeb-a8d3-7ec826e271c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ログインID　または　登録メールアドレス'])[1]/following::p[1]</value>
+      <webElementGuid>a84fbaf2-ce40-4c50-ac6c-8b3a72c096a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ヨシケイのレシピはこちら'])[1]/following::p[2]</value>
+      <webElementGuid>749204cc-0db3-40af-8a83-d329033c31d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='パスワード'])[1]/preceding::p[1]</value>
+      <webElementGuid>4cc2cd25-a567-4e5d-95af-74d6ee832bf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ログインIDを記憶する'])[1]/preceding::p[2]</value>
+      <webElementGuid>223d9a9c-15b3-461e-b0a4-9ae7284befa8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ログインIDまたはメールアドレスを正しく入力してください。']/parent::*</value>
+      <webElementGuid>998bcce6-5c61-4634-928a-977558f90d36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/p</value>
+      <webElementGuid>9f46433a-0bbe-4f9b-85cb-77dd36fd2c37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'ログインIDまたはメールアドレスを正しく入力してください。' or . = 'ログインIDまたはメールアドレスを正しく入力してください。')]</value>
+      <webElementGuid>03d12b8a-8a2c-405f-87af-d8bbbb612fc6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
