@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>committest</name>
+   <name>dropdownlistClickable</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>cdabd9b6-7d63-4b5a-80c3-f267136eb1e8</testCaseGuid>
+   <testCaseGuid>c6d30c65-41d1-453c-9f11-51353a4a2534</testCaseGuid>
 </TestCaseEntity>

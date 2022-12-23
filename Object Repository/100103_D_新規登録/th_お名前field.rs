@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>th_お名前field</name>
+   <tag></tag>
+   <elementGuidId>e5f31f76-0483-4408-893d-9cba84cddc5e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'お名前' or . = 'お名前')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='frmsch']/table/tbody/tr[2]/th</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>e5ae6731-7578-4bad-8851-1f1576504bcd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>お名前</value>
+      <webElementGuid>2febb027-ff4b-44e6-99f1-5dbff1621b6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;frmsch&quot;)/table[@class=&quot;form-table&quot;]/tbody[1]/tr[2]/th[1]</value>
+      <webElementGuid>c6bd48d9-6ed5-43c2-9f57-bf30e85a06a8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='frmsch']/table/tbody/tr[2]/th</value>
+      <webElementGuid>1acdee88-a574-43f0-be6a-bd1ba36cc613</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ヨシケイ東部'])[2]/following::th[1]</value>
+      <webElementGuid>4ad982d5-10f1-4af8-95e5-8ccdd0926c44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='担当店'])[1]/following::th[1]</value>
+      <webElementGuid>8e5f421b-5c48-4f8f-9d1b-d6346e4d5cfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='必須'])[1]/preceding::th[1]</value>
+      <webElementGuid>05531f62-43bc-49c8-9a96-9ff403887502</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/th</value>
+      <webElementGuid>04fb7e04-f04c-46ec-833b-7da3871f9ed8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = 'お名前' or . = 'お名前')]</value>
+      <webElementGuid>df779d1e-0f91-4e4b-8d23-8a42b13ec920</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

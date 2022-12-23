@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_お名前_tdタッグ</name>
+   <tag></tag>
+   <elementGuidId>d4669e62-7ab3-41ab-ac81-c89e2f95413d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='frmsch']/table/tbody/tr[2]/td[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>1f460f4a-453f-4338-8658-2f6ebbb295f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+										お名前を入力してください。
+									</value>
+      <webElementGuid>6ddcbbe0-6112-42f8-9632-41f6e59900dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;frmsch&quot;)/table[@class=&quot;form-table&quot;]/tbody[1]/tr[2]/td[2]</value>
+      <webElementGuid>676df4de-ed80-43f9-bb24-cb07b4ef839a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='frmsch']/table/tbody/tr[2]/td[2]</value>
+      <webElementGuid>0d302f5a-a7c2-498d-bb61-61c991f7ea4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='必須'])[1]/following::td[1]</value>
+      <webElementGuid>808b9c8c-34a3-4fa6-9fa6-a3c1276bb4a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='お名前'])[1]/following::td[2]</value>
+      <webElementGuid>9ab6c6ba-d47b-47b2-815a-770adf96914d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='お名前（カタカナ）'])[1]/preceding::td[1]</value>
+      <webElementGuid>2fb332a3-70c6-49b1-bcdb-61d081cd485f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='必須'])[2]/preceding::td[1]</value>
+      <webElementGuid>a6612160-0f05-4712-b220-c5bf59332398</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[2]</value>
+      <webElementGuid>33780da3-2a7d-4770-ac49-bd044cc9f96c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '
+										お名前を入力してください。
+									' or . = '
+										お名前を入力してください。
+									')]</value>
+      <webElementGuid>83e515be-df0c-4388-a702-25a0ea778bcd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
