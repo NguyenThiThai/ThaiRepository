@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_100Gbps IP Transit 4500month</name>
+   <tag></tag>
+   <elementGuidId>c51ef918-b821-4e4e-928b-d587c20ebe94</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='banner-nologo']/div/div[2]/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ns-yj6e0-e-7.long-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5bc0f3a2-33f4-4bf0-810a-6401d2cef79b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ns-yj6e0-e-7 long-title</value>
+      <webElementGuid>6f5ea9c9-f775-419e-8fb0-cd09141516f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>he.net</value>
+      <webElementGuid>29131d74-8ddc-48fd-8cf9-75fde8a51a6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>100Gbps IP Transit $4500/month</value>
+      <webElementGuid>a97a8c65-7a39-4965-82d8-92ebdecbf788</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;banner-nologo&quot;)/div[@class=&quot;ns-yj6e0-e-1 row-container canvas&quot;]/div[@class=&quot;ns-yj6e0-e-3 column-container&quot;]/div[@class=&quot;ns-yj6e0-e-4 banner-text-container clickable&quot;]/div[@class=&quot;ns-yj6e0-e-7 long-title&quot;]</value>
+      <webElementGuid>a77cd558-8bec-4ad9-9f8b-82da621cd302</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/alertObject/iframe_Run_google_ads_iframe_22152718,16833_8cc2f2</value>
+      <webElementGuid>f0eb0cad-92e7-4cc2-abfb-75ead6201082</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='banner-nologo']/div/div[2]/div/div[2]</value>
+      <webElementGuid>a90842e7-b86d-4aec-a600-3ba94bf4a781</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='he.net'])[1]/following::div[1]</value>
+      <webElementGuid>eb8f1c2a-9114-4ad5-95af-145214839d30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Open'])[1]/preceding::div[2]</value>
+      <webElementGuid>5039cb4b-b47f-49b6-810d-75392d98ef48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ad served by'])[1]/preceding::div[9]</value>
+      <webElementGuid>6436e626-5eeb-4e3b-98ba-57340fd27667</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]</value>
+      <webElementGuid>9a78fc3c-6789-41db-b8be-03214d9c49c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@title = 'he.net' and (text() = '100Gbps IP Transit $4500/month' or . = '100Gbps IP Transit $4500/month')]</value>
+      <webElementGuid>ef1596ed-681d-4635-8508-79c1e9386eb4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

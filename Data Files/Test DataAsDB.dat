@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Test DataAsDB</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>ccaaa231-4bee-4fad-add2-747f229803d9</dataFileGUID>
+   <dataSourceUrl>jdbc:postgresql://localhost:5432/testDB?currentSchema=public</dataSourceUrl>
+   <driver>DBData</driver>
+   <driverClassName>postgresql-42.2.27.jre6</driverClassName>
+   <isInternalPath>false</isInternalPath>
+   <password>YWRtaW4=</password>
+   <properties>
+      <entry>
+         <key>readAsString</key>
+         <value>true</value>
+      </entry>
+   </properties>
+   <query>select * from public.user</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>postgres</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

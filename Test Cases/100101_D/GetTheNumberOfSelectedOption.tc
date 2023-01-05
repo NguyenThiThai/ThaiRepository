@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetTheNumberOfSelectedOption</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>97b8c3f5-f8e8-4089-aed0-05d15cf1cb8b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>241a1612-b6ad-4209-8edf-97f4f630ca75</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>241a1612-b6ad-4209-8edf-97f4f630ca75</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

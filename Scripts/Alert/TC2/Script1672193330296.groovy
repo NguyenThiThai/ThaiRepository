@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://testkensho01.yoshikei-dvlp.co.jp/webodrlmt/apl/10/100201_D.aspx')
+WebUI.navigateToUrl('https://www.w3schools.com/js/tryit.asp?filename=tryjs_confirm')
 
-WebUI.setText(findTestObject('100201_D/input_ID_txtWeb_Login_Id'), 'YSM12321')
+WebUI.click(findTestObject('Object Repository/alertObject/button_Try it'))
 
-WebUI.setEncryptedText(findTestObject('100201_D/input__pwdPassword'), 'tbk9U9LYcWOIVmxuQUH1Aw==')
+WebUI.verifyAlertPresent(2)
 
-WebUI.verifyElementClickable(findTestObject('100201_D/btn_login'))
+WebUI.acceptAlert()
 
-WebUI.click(findTestObject('100201_D/btn_login'))
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

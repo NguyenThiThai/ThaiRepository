@@ -15,7 +15,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.Keys
+import org.openqa.selenium.Point
+import org.openqa.selenium.Rectangle as Rectangle
 
 WebUI.openBrowser('')
 
@@ -25,9 +27,22 @@ WebUI.setText(findTestObject('100201_D/input_ID_txtWeb_Login_Id'), 'YSM12321')
 
 WebUI.setEncryptedText(findTestObject('100201_D/input__pwdPassword'), 'tbk9U9LYcWOIVmxuQUH1Aw==')
 
+Point position = Windows.getElementPosition(findWindowsObject('100201_D/input_ID_txtWeb_Login_Id'))
+printf String.format("{x:%d, y:%d}", position.getX(), position.getY())
+
+WebUI.takeElementScreenshot('D://ThaiNT_Done/katalon_capture/demoElement.png', findTestObject('100201_D/btn_login'))
+
 WebUI.verifyElementClickable(findTestObject('100201_D/btn_login'))
 
 WebUI.click(findTestObject('100201_D/btn_login'))
 
+WebUI.takeScreenshot('D://ThaiNT_Done/katalon_capture/demo.png')
+
+WebUI.takeFullPageScreenshot('D://ThaiNT_Done/katalon_capture/demofull.png')
+
+WebUI.takeAreaScreenshot('D://ThaiNT_Done/katalon_capture/demoarea.png', new Rectangle(500, 250, 500, 400))
+
+
 WebUI.closeBrowser()
+
 

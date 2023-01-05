@@ -21,13 +21,5 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://testkensho01.yoshikei-dvlp.co.jp/webodrlmt/apl/10/100201_D.aspx')
 
-WebUI.setText(findTestObject('100201_D/input_ID_txtWeb_Login_Id'), 'YSM12321')
-
-WebUI.setEncryptedText(findTestObject('100201_D/input__pwdPassword'), 'tbk9U9LYcWOIVmxuQUH1Aw==')
-
-WebUI.verifyElementClickable(findTestObject('100201_D/btn_login'))
-
-WebUI.click(findTestObject('100201_D/btn_login'))
-
-WebUI.closeBrowser()
+WebUI.scrollToElement(findTestObject('100201_D/a_ 佐賀'), 5)
 
