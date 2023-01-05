@@ -28,7 +28,7 @@ for (def rowNum = 1; rowNum <= findTestData('TestDataDriven').getRowNumbers(); r
 		println(findTestData('Test DataAsDB').getValue(1, rowNumdb))
 		println(findTestData('Test DataAsDB').getValue(2, rowNumdb))
 		
-		if(WebUI.getAttribute(findTestObject('100201_D/input_ID_txtWeb_Login_Id'), 'value') != findTestData('Test DataAsDB').getValue(1, rowNumdb).trim() & WebUI.getAttribute(findTestObject('100201_D/input__pwdPassword'), 'value') != findTestData('Test DataAsDB').getValue(2, rowNumdb).trim()) {
+		if(WebUI.getAttribute(findTestObject('100201_D/input_ID_txtWeb_Login_Id'), 'value') != findTestData('Test DataAsDB').getValue(1, rowNumdb).trim() && WebUI.getAttribute(findTestObject('100201_D/input__pwdPassword'), 'value') != findTestData('Test DataAsDB').getValue(2, rowNumdb).trim()) {
 			continue
 		} else 	println('success')
 			    WebUI.click(findTestObject('100201_D/btn_login'))
