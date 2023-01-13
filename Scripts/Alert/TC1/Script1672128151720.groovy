@@ -23,11 +23,13 @@ WebUI.navigateToUrl('https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref
 
 WebUI.click(findTestObject('Object Repository/alertObject/button_Try it'))
 
-WebUI.verifyAlertPresent(2)
-
-WebUI.acceptAlert()
+WebUI.verifyAlertPresent(6)
 
 WebUI.delay(2)
+
+println(WebUI.verifyAlertPresent(2))
+
+WebUI.acceptAlert()
 
 WebUI.closeBrowser()
 

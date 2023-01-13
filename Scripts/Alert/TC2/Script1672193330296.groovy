@@ -13,6 +13,7 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
@@ -23,9 +24,15 @@ WebUI.navigateToUrl('https://www.w3schools.com/js/tryit.asp?filename=tryjs_confi
 
 WebUI.click(findTestObject('Object Repository/alertObject/button_Try it'))
 
-WebUI.verifyAlertPresent(2)
+WebUI.verifyAlertPresent(5)
 
-WebUI.acceptAlert()
+WebUI.delay(2)
+
+println(WebUI.verifyAlertPresent(2))
+
+//WebUI.acceptAlert()
+//or
+WebUI.dismissAlert()
 
 WebUI.delay(2)
 

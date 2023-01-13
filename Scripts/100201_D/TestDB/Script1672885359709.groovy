@@ -9,13 +9,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://testkensho01.yoshikei-dvlp.co.jp/webodrlmt/apl/10/100201_D.aspx')
 
-for (def rowNum = 1; rowNum <= findTestData('TestDataDriven').getRowNumbers(); rowNum++) {
+for (def rowNum = 1; rowNum <= findTestData('TestDataFile').getRowNumbers(); rowNum++) {
 	println(rowNum)
 	//WebUI.setText(findTestObject('100201_D/input__pwdPassword'), password)
-	WebUI.setText(findTestObject('100201_D/input_ID_txtWeb_Login_Id'), findTestData('TestDataDriven').getValue(1, rowNum))
+	WebUI.setText(findTestObject('100201_D/input_ID_txtWeb_Login_Id'), findTestData('TestDataFile').getValue(1, rowNum))
     println(findTestData('TestDataDriven').getValue(1, rowNum))
 	//WebUI.setText(findTestObject('100201_D/input__pwdPassword'), password)
-	WebUI.setText(findTestObject('100201_D/input__pwdPassword'), findTestData('TestDataDriven').getValue(2, rowNum))
+	WebUI.setText(findTestObject('100201_D/input__pwdPassword'), findTestData('TestDataFile').getValue(2, rowNum))
 	println(findTestData('TestDataDriven').getValue(2, rowNum))
 	
 	//	verify with database data
@@ -32,6 +32,7 @@ for (def rowNum = 1; rowNum <= findTestData('TestDataDriven').getRowNumbers(); r
 			continue
 		} else 	println('success')
 			    WebUI.click(findTestObject('100201_D/btn_login'))
+				break
 	}
 	
 }

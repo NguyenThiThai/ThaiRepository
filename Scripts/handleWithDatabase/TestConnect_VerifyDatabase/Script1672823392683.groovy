@@ -1,11 +1,9 @@
- import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import java.sql.ResultSet
 
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.sun.org.apache.bcel.internal.generic.RETURN
 
-import net.bytebuddy.asm.Advice.Return
 
 
 //connect to DB
@@ -26,39 +24,49 @@ WebUI.setText(findTestObject('100201_D/input_ID_txtWeb_Login_Id'), 'YSM12321')
 WebUI.setEncryptedText(findTestObject('100201_D/input__pwdPassword'), 'tbk9U9LYcWOIVmxuQUH1Aw==')
 
 //verify username& password
-String ID
-String pass
+//Databaseの情報を取得します
 String query = 'select * from public.user'
-//List<List> rowlist = CustomKeywords.'database.ConnectDB.executeQuery'(query)
 ResultSet result = CustomKeywords.'database.ConnectDB.executeQuery'(query)
+//Move the cursor in the result table to the second row
 result.next()
 
 //Save the result as a string
-String valueFromDB1_1 = result.getString(1)
-String valueFromDB1_2= result.getString(2)
+//String valueFromDB1_1 = result.getString(1)
+//String valueFromDB1_2= result.getString(2)
 //Move the cursor in the result table to the second row
-result.next()
+//result.next()
 //still get the value from the first column
-String valueFromDB2_1 = result.getString(1)
-String valueFromDB2_2 = result.getString(2)
-println(valueFromDB1_1)
-println(valueFromDB1_2)
-println(valueFromDB2_1)
-println(valueFromDB2_2)
-
+//String valueFromDB2_1 = result.getString(1)
+//String valueFromDB2_2 = result.getString(2)
+//println(valueFromDB1_1)
+//println(valueFromDB1_2)
+//println(valueFromDB2_1)
+//println(valueFromDB2_2)
 
 //use For
 String qrCountNum = 'select COUNT(*) from public.user'
 ResultSet countNumResult = CustomKeywords.'database.ConnectDB.executeQuery'(qrCountNum)
-//for(def rowNum = 1; rowNum <= CountResult; rowNum++) {
-//	
-//}
 countNumResult.next()
-println(countNumResult.getInt(1))
+println('num:'+countNumResult.getInt(1))
+for(def rowNum = 1; rowNum <= countNumResult.getInt(1); rowNum++) {	
+	def user, pass
+	user  =WebUI.getAttribute(findTestObject('100201_D/input_ID_txtWeb_Login_Id'), 'value')
+	pass = WebUI.getAttribute(findTestObject('100201_D/input__pwdPassword'), 'value')
+	if(user.equals(result.getString(1).trim()) && pass.equals(result.getString(2).trim())){
+		println('success! データベースに入力した値があります。')
+		//				WebUI.click(findTestObject('100201_D/btn_login'))
+						break
 
-
-//return [valueFromDB2,valueFromDB]
+	} else { result.next()
+			continue
+	}
+		  
+}
 
 WebUI.verifyElementClickable(findTestObject('100201_D/btn_login'))
 
 WebUI.click(findTestObject('100201_D/btn_login'))
+
+CustomKeywords.'database.ConnectDB.closeDatabaseConnection'()
+WebUI.delay(5)
+WebUI.closeBrowser()

@@ -6,12 +6,12 @@
    <elementGuidId>ab1a1553-bfce-4b05-a85c-a3bbdffe9c1c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@onclick='myFunction()']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@onclick='myFunction()']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -47,14 +47,6 @@
       <type>Main</type>
       <value>/html[1]/body[1]/button[1]</value>
       <webElementGuid>d85c310d-f88a-4c87-b37e-548d0aa4bb42</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/alertObject/iframe__iframeResult</value>
-      <webElementGuid>b145ced3-586b-42b7-98c5-efe8cad9b739</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

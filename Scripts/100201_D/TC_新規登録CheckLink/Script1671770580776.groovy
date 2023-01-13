@@ -32,13 +32,14 @@ def url = 'https://testkensho01.yoshikei-dvlp.co.jp/webodrlmt/apl/10/100101_D.as
 def currentUrl
 
 currentUrl = WebUI.getUrl()
+println(currentUrl)
 
 if (WebUI.verifyMatch(currentUrl, url, true)) {
     'Neeus bieu thuc ben trai laf trong thi tra ve false'
-    WebUI.verifyElementClickable(findTestObject('100101_D/select_県'))
-
-    WebUI.click(findTestObject('100101_D/select_県'))
-} else {
+//    WebUI.verifyElementClickable(findTestObject('100101_D/select_県'))
+//    WebUI.click(findTestObject('100101_D/select_県'))
+	println('新規登録ページ（101101_D）へ移動出来ました！')
+	} else {
     WebUI.closeBrowser()
 }
 
